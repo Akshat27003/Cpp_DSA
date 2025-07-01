@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    //Given an integer array, return the sum of the 1st and last element of the array.
+    //Given an integer array, print the sum of the 1st and last element of the array.
 
     int arr[20] = {0}; // all values 0.
     int n;
