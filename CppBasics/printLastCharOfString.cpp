@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // Given a string s. Return the last character of the given string s.
+    // Given a string s. Print the last character of the given string s.
 
     string s;
     cout << "Enter a string: ";
