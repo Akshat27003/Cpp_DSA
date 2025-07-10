@@ -23,6 +23,9 @@ int largestDigitOfNum(int num)
     return largest;
 }
 
+// TC: O(log10(n))
+// SC: O(1)
+
 int main()
 {
     int n;

@@ -24,6 +24,9 @@ int countOddDigits(int num)
     return count;
 }
 
+//TC: O(log10(n))
+//SC: O(1)
+
 int main()
 {
     int n;
