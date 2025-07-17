@@ -56,6 +56,7 @@ bool rotateStr(string s, string goal)
 }
 // TC: O(N^2), SC: O(N).
 
+//optimized approach:
 bool rotateStr2(string s, string goal)
 {
     if(s.length() != goal.length())
