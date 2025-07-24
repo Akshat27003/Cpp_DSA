@@ -44,6 +44,7 @@ int pivot(vector<int>& nums, int low, int high)
         // stop i pointer at an index where the element is greater than our current pivot elt.
         while(nums[i] <= pivot && i < high) // i < high is important so that we dont go out of bound in any edge case.
         // one edge case is when all elements are equal.
+        // if we do nums[i] >= pivot... and nums[j] < pivot.. we, can get an array sorted in descending order.
         {
             i++; // nums[i] <= pivot means we are keeping equal value to the left of partition index.
         }
